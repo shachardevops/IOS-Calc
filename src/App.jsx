@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
 import Calc from './components/Calc';
+import 'bootstrap/dist/css/bootstrap.css';
 class App extends Component {
   render() {
     return (
-      <div id="app">
+      <div className="container">
+
       <Calc/>
       </div>
     );
